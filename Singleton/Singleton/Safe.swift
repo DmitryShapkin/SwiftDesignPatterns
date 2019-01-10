@@ -11,5 +11,7 @@ class Safe {
     var money = 0
     static let shared = Safe()
     
+    private init() {}
+    
 }
 
