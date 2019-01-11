@@ -11,7 +11,7 @@ class Driver {
 }
 
 class Car {
-    var gooDriverIterator: GoodDriverIterator {
+    var goodDriverIterator: GoodDriverIterator {
         return GoodDriverIterator(drivers: drivers)
     }
     
@@ -52,7 +52,7 @@ class GoodDriverIterator: BasicIterator {
 }
 
 let car = Car()
-let gooDriverIterator = car.gooDriverIterator.next()
+let goodDriverIterator = car.goodDriverIterator.next()
 
 let goodDriverIteratorViaSequence = car.makeIterator().allDrivers()
 
